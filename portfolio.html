@@ -1,0 +1,97 @@
+<!-- HTML Bio with CSS -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>My Bio</title>
+
+    <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Assets/CSS/portfolio.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar navbar-dark" style="background-color: #333333;"></div>
+        <!--Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo01" style="background-color: rgba(54, 3, 54, 0.568);"></div> -->
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html" target="_blank">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html" target="_blank">Portfolio <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Page Content-->
+    <div class="container" style="text-align:center">
+        <div class="row" style="text-align:center">
+            <div class="card" style="width: 22rem;">
+                <img src="Assets/Images/PasswordGen.png" class="card-img-top" alt="Password Generator">
+                <div class="card-body">
+                    <h5 class="card-title">Password Generator</h5>
+                    <p class="card-text">This application will generate a random password based on selection made by the
+                        user.</p>
+                    <a href="https://plrobbins.github.io/password.hw/" class="btn btn-primary"
+                        style="background-color: black;">View App</a>
+                    <a href="https://github.com/plrobbins/password.hw" class="btn btn-primary"
+                        style="background-color: black;">Github</a>
+                </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+                <img src="Assets/Images/OnYourFit.png" class="card-img-top" alt="On YOur Fit">
+                <div class="card-body">
+                    <h5 class="card-title">On Your Fit</h5>
+                    <p class="card-text">This application is designed to assist hikers find the best trail in a city based
+                         on 3 parameters (difficulty grade, conditional status and/or location) set by the end user.</p>
+                    <a href="https://plrobbins.github.io/onyourfit/" class="btn btn-primary"
+                        style="background-color: black;">View App</a>
+                    <a href="https://github.com/plrobbins/onyourfit" class="btn btn-primary"
+                        style="background-color: black;">Github</a>
+                </div>
+            </div>
+            <div class="card" style="width: 22rem;">
+                <img src="Assets/Images/WeatherDashboard.png" class="card-img-top" alt="Weather Dashboard">
+                <div class="card-body">
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">This weather dashboard will use the OpenWeather API to retrieve weather for cities.</p>
+                    <a href="https://plrobbins.github.io/weather.dashboard/" class="btn btn-primary"
+                        style="background-color: black;">View App</a>
+                    <a href="https://github.com/plrobbins/weather.dashboard" class="btn btn-primary"
+                        style="background-color: black;">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
