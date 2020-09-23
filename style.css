@@ -22,7 +22,7 @@ body {
 }
 
 header {
-  background: #d21034;
+  background: #333;
 }
 
 h1 {
@@ -51,11 +51,11 @@ a {
 }
 
 .container {
-  /* Box-model */
+  background-color: white;
   width: 1024px;
 
   /* Positioning */
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 #main-bio,
@@ -82,3 +82,22 @@ a {
 
   margin-right: 20px;
 }
+
+/*Width at 768px */
+@media screen and (max-width: 768px) {
+  body {
+    background-color:white;
+  }
+  .wrapper {
+    
+    width: 100%;
+    padding: 20px;
+  }
+  #main-bio,
+  #contact-info,
+  #img-thumbnail {
+    width:auto;
+  }
+  
+
+}  
